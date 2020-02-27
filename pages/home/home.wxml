@@ -1,2 +1,19 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<!-- 1.小程序的数据绑定  {{}} -> Mustache -->
+<view>hello {{name}}</view>
+<view>年龄：{{age + 20}}</view>
+
+<!-- 2. 列表展示  wx:for  (循环)-->
+<view wx:for="{{students}}">
+  {{item.id}}--{{item.name}}--{{item.age}}
+</view>
+
+<!-- 3.事件监听改变data
+      a.size设置按钮是小按钮
+      b.bindtap点击事件（不需要Mustache语法）
+-->
+<view>当前计数：{{conter}}</view>
+<button size="mini" bindtap="handleBtnClick">+</button>
+<button size="mini" bindtap="handleSubtraction">-</button>
+
+
