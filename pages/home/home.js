@@ -1,4 +1,7 @@
 // pages/home/home.js
+
+const app = getApp()
+
 Page({
   data:{
     name:"coderwhy",
@@ -25,5 +28,8 @@ Page({
     this.setData({
       conter: this.data.conter - 1
     })
+  },
+  handleGetUserInfo(event) {
+    console.log(event);
   }
 })

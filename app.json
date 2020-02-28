@@ -22,7 +22,7 @@
       "selectedIconPath": "assets/images/tabbar/home_active.png"
     },
     {
-      "pagePath": "pages/about/about",
+      "pagePath": "pages/category/category",
       "text": "分类",
       "iconPath": "assets/images/tabbar/category.png",
       "selectedIconPath": "assets/images/tabbar/category_active.png"
