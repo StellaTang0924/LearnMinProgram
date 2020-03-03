@@ -1,7 +1,5 @@
 {
   "pages": [
-    "page/home/home",
-    "page/about/about",
     "pages/home/home",
     "pages/about/about"
   ]
